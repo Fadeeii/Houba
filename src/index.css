@@ -1,0 +1,123 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --bg-cream: #FFFDF7;
+    --color-navy: #24324A;
+    --color-soft-blue: #DCEBFF;
+    --color-powder-blue: #BFD9FF;
+    --color-mint: #DDF4E7;
+    --color-butter: #FFF0B8;
+    --color-peach: #FFE0D2;
+    --color-coral: #FFB8A5;
+  }
+
+  body {
+    background-color: #FFFDF7;
+    color: #24324A;
+    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+}
+
+/* Custom cute scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #FFFDF7;
+}
+::-webkit-scrollbar-thumb {
+  background: #BFD9FF;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #93C5FD;
+}
+
+/* Cute card & button utilities */
+.cute-card {
+  background-color: #FFFFFF;
+  border: 1px solid #EAE6DB;
+  border-radius: 1rem;
+  box-shadow: 0 2px 8px -2px rgba(36, 50, 74, 0.04);
+  transition: all 0.2s ease-in-out;
+}
+
+.cute-card-blue {
+  background-color: #DCEBFF;
+  border: 1px solid #BFD9FF;
+  border-radius: 1rem;
+}
+
+.cute-card-mint {
+  background-color: #DDF4E7;
+  border: 1px solid #B8E6CB;
+  border-radius: 1rem;
+}
+
+.cute-card-peach {
+  background-color: #FFE0D2;
+  border: 1px solid #FFC9B5;
+  border-radius: 1rem;
+}
+
+.cute-card-butter {
+  background-color: #FFF0B8;
+  border: 1px solid #FDE074;
+  border-radius: 1rem;
+}
+
+.cute-button-primary {
+  background-color: #24324A;
+  color: #FFFFFF;
+  border-radius: 0.75rem;
+  font-weight: 600;
+  transition: all 0.15s ease-in-out;
+}
+.cute-button-primary:hover {
+  background-color: #1A2536;
+  transform: translateY(-1px);
+}
+
+.cute-button-secondary {
+  background-color: #FFFFFF;
+  color: #24324A;
+  border: 1px solid #CBD5E1;
+  border-radius: 0.75rem;
+  font-weight: 600;
+  transition: all 0.15s ease-in-out;
+}
+.cute-button-secondary:hover {
+  background-color: #F8FAFC;
+  border-color: #94A3B8;
+}
+
+.cute-badge-blue {
+  background-color: #DCEBFF;
+  color: #1E3A8A;
+  border-radius: 9999px;
+  font-weight: 600;
+}
+
+.cute-badge-mint {
+  background-color: #DDF4E7;
+  color: #065F46;
+  border-radius: 9999px;
+  font-weight: 600;
+}
+
+.cute-badge-peach {
+  background-color: #FFE0D2;
+  color: #9A3412;
+  border-radius: 9999px;
+  font-weight: 600;
+}
+
+.cute-badge-butter {
+  background-color: #FFF0B8;
+  color: #854D0E;
+  border-radius: 9999px;
+  font-weight: 600;
+}
