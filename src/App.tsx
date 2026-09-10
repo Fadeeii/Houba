@@ -112,11 +112,11 @@ const MainContent: React.FC = () => {
 export function App() {
   return (
     <EcosystemProvider>
-      <div className="min-h-screen bg-slate-50 flex flex-col font-sans text-slate-900 selection:bg-indigo-500 selection:text-white">
+      <div className="min-h-screen bg-[#F7F4EB] flex flex-col font-sans text-[#24324A] selection:bg-[#DCEBFF] selection:text-[#1E3A8A]">
         <Navbar />
         <div className="flex-1 flex overflow-hidden">
           <Sidebar />
-          <main className="flex-1 flex flex-col min-w-0 overflow-y-auto">
+          <main className="flex-1 flex flex-col min-w-0 overflow-y-auto bg-[#F7F4EB]">
             <MainContent />
           </main>
         </div>
